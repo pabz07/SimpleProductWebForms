@@ -1,0 +1,34 @@
+﻿.product-list {
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-right: 10px;
+    margin-bottom: 25px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card .product-descrption {
+    font-weight: bold;
+}
+
+.add-product {
+    width: 450px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.card .product-descrption-container {
+    height: 200px;
+    overflow: auto;
+}
+
+.card .product-image-container {
+    height: 200px;
+}
